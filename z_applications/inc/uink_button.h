@@ -1,0 +1,23 @@
+#ifndef UINK_BUTTON_H
+#define UINK_BUTTON_H
+
+#define BUTTON_EVENT_SHORT_PRESS_MAX        2
+
+#define BUTTON_CONTINUOUS_PRESS_INTERVAL    300
+
+#define BUTTON_SINGLE_PRESS_TIME_3S         3000
+#define BUTTON_SINGLE_PRESS_TIME_5S			5000
+#define BUTTON_SINGLE_PRESS_TIME_10S		10000
+
+typedef enum{
+    BUTTON_EVENT_SHORT_PRESS_1,
+    BUTTON_EVENT_SHORT_PRESS_2,
+    BUTTON_EVENT_LONG_PRESS_3S,
+    BUTTON_EVENT_LONG_PRESS_5S,
+	BUTTON_EVENT_LONG_PRESS_10S,
+}button_event_t;
+
+void button_init(void);
+void button_thread(void *argument);
+
+#endif

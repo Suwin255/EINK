@@ -1,0 +1,13 @@
+#CRC Codes for initially generated config files -- do not modify!
+sl_core_config.h=-119586893
+sl_main_start_task_config.h=-1054800951
+sl_memory_manager_config.h=372791543
+sl_si91x_config_timer_config.h=923743326
+sl_si91x_debug_uc_config.h=1023865603
+sl_si91x_gspi_common_config.h=-579043353
+sl_si91x_gspi_config.h=1580588078
+sl_si91x_i2c_init_i2c0_config.h=964383101
+sl_si91x_psram_aps6404l_sqrh_config.h=-884997391
+sl_si91x_psram_pin_config.h=-20368125
+sl_si91x_ulp_uart_common_config.h=1894921982
+sl_si91x_ulp_uart_config.h=-1499638611
