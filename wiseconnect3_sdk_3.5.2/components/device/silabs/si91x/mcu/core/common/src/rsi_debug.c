@@ -89,7 +89,6 @@ void ARM_UART_SignalEvent(uint32_t event) {
 	case ARM_USART_EVENT_RECEIVE_COMPLETE:
 #ifdef SLI_SI91X_MCU_INTR_BASED_RX_ON_UART
       UARTdrv->Receive((void *)pic, 30000);
-      //osSemaphoreRelease(eink_thread_semaphore);
       msg = 2;
       osMessageQueuePut(eink_msgQueue, &msg, 0, 0);
       //cache_uart_rx_data(rx_char);

@@ -33,7 +33,10 @@ CPP_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 . \
+applications/src \
 autogen \
+drivers/src \
+peripherals/src \
 simplicity_sdk_2025.6.3/platform/CMSIS/RTOS2/Source \
 simplicity_sdk_2025.6.3/platform/common/src \
 simplicity_sdk_2025.6.3/platform/service/sl_main/src/rtos \
@@ -42,6 +45,7 @@ simplicity_sdk_2025.6.3/util/third_party/freertos/cmsis/Source \
 simplicity_sdk_2025.6.3/util/third_party/freertos/kernel \
 simplicity_sdk_2025.6.3/util/third_party/freertos/kernel/portable/GCC/ARM_CM4F \
 simplicity_sdk_2025.6.3/util/third_party/freertos/kernel/portable/MemMang \
+temp \
 wiseconnect3_sdk_3.5.2/components/device/silabs/si91x/mcu/core/chip/src/iPMU_prog/iPMU_dotc \
 wiseconnect3_sdk_3.5.2/components/device/silabs/si91x/mcu/core/chip/src \
 wiseconnect3_sdk_3.5.2/components/device/silabs/si91x/mcu/core/common/src \
@@ -52,8 +56,4 @@ wiseconnect3_sdk_3.5.2/components/device/silabs/si91x/mcu/drivers/service/clock_
 wiseconnect3_sdk_3.5.2/components/device/silabs/si91x/mcu/drivers/systemlevel/src \
 wiseconnect3_sdk_3.5.2/components/device/silabs/si91x/mcu/drivers/unified_api/src \
 wiseconnect3_sdk_3.5.2/components/device/silabs/si91x/mcu/drivers/unified_peripheral_drivers/src \
-z_applications/src \
-z_drivers/src \
-z_peripherals/src \
-z_temp \
 

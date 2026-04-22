@@ -2,9 +2,9 @@
 
 #include "cmsis_os2.h"
 
-#include "uink_led.h"
-#include "uink_eink.h"
-#include "uink_button.h"
+#include "applications/inc/uink_button.h"
+#include "applications/inc/uink_eink.h"
+#include "applications/inc/uink_led.h"
 
 static osThreadId_t led_thread_id;
 static osThreadId_t eink_thread_id;

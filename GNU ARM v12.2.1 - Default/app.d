@@ -1,10 +1,15 @@
 app.o: ../app.c ../app.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_drivers\inc/uink_aw9523b.h \
+ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\temp/huffman.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\core\common\inc/rsi_debug.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\core\config/rsi_ccp_user_config.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\autogen/sl_component_catalog.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\config/sl_si91x_debug_uc_config.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_peripherals\inc/uink_i2c.h \
+ ../uink_thread.h \
+ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\applications\inc/uink_button.h \
+ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\applications\inc/uink_eink.h \
+ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\applications\inc/uink_led.h \
+ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\drivers\inc/uink_aw9523b.h \
+ d:\siliconlabs\simplicitystudio\v5_workspace\si91x_hello_world\peripherals\inc\uink_i2c.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\drivers\unified_api\inc/sl_si91x_i2c.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\drivers\unified_peripheral_drivers\inc/sl_si91x_peripheral_i2c.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\simplicity_sdk_2025.6.3\platform\common\inc/sl_status.h \
@@ -24,7 +29,11 @@ app.o: ../app.c ../app.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\config/pin_config.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\config/sl_i2c_board.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\core\chip\inc/em_device.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_peripherals\inc/uink_gpio.h \
+ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\drivers\inc/uink_gd25wq64e.h \
+ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\drivers\inc/uink_pwr.h \
+ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\drivers\inc/uink_ssd2683.h \
+ d:\siliconlabs\simplicitystudio\v5_workspace\si91x_hello_world\drivers\inc\uink_ssd.h \
+ d:\siliconlabs\simplicitystudio\v5_workspace\si91x_hello_world\peripherals\inc\uink_gpio.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\drivers\unified_api\inc/sl_si91x_driver_gpio.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\drivers\unified_api\inc/sl_driver_gpio.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\drivers\unified_peripheral_drivers\inc/sl_si91x_peripheral_gpio.h \
@@ -32,24 +41,22 @@ app.o: ../app.c ../app.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\drivers\unified_peripheral_drivers\inc/sl_si91x_gpio_common.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\core\chip\inc/si91x_device.h \
  D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\config/sl_gpio_board.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_applications\inc/uink_led.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_drivers\inc/uink_pwr.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_drivers\inc/uink_ssd2683.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_drivers\inc/uink_ssd.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_peripherals\inc/uink_spi.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_peripherals\inc/uink_gpio.h \
- ../uink_thread.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_applications\inc/uink_eink.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_applications\inc/uink_button.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_drivers\inc/uink_gd25wq64e.h \
- D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_temp/rle.h
+ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\peripherals\inc/uink_gpio.h \
+ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\peripherals\inc/uink_i2c.h \
+ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\peripherals\inc/uink_spi.h \
+ d:\siliconlabs\simplicitystudio\v5_workspace\si91x_hello_world\peripherals\inc\uink_gpio.h
 ../app.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_drivers\inc/uink_aw9523b.h:
+D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\temp/huffman.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\core\common\inc/rsi_debug.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\core\config/rsi_ccp_user_config.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\autogen/sl_component_catalog.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\config/sl_si91x_debug_uc_config.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_peripherals\inc/uink_i2c.h:
+../uink_thread.h:
+D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\applications\inc/uink_button.h:
+D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\applications\inc/uink_eink.h:
+D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\applications\inc/uink_led.h:
+D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\drivers\inc/uink_aw9523b.h:
+d:\siliconlabs\simplicitystudio\v5_workspace\si91x_hello_world\peripherals\inc\uink_i2c.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\drivers\unified_api\inc/sl_si91x_i2c.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\drivers\unified_peripheral_drivers\inc/sl_si91x_peripheral_i2c.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\simplicity_sdk_2025.6.3\platform\common\inc/sl_status.h:
@@ -69,7 +76,11 @@ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\config/RTE_Device
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\config/pin_config.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\config/sl_i2c_board.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\core\chip\inc/em_device.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_peripherals\inc/uink_gpio.h:
+D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\drivers\inc/uink_gd25wq64e.h:
+D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\drivers\inc/uink_pwr.h:
+D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\drivers\inc/uink_ssd2683.h:
+d:\siliconlabs\simplicitystudio\v5_workspace\si91x_hello_world\drivers\inc\uink_ssd.h:
+d:\siliconlabs\simplicitystudio\v5_workspace\si91x_hello_world\peripherals\inc\uink_gpio.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\drivers\unified_api\inc/sl_si91x_driver_gpio.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\drivers\unified_api\inc/sl_driver_gpio.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\drivers\unified_peripheral_drivers\inc/sl_si91x_peripheral_gpio.h:
@@ -77,14 +88,7 @@ D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\drivers\unified_peripheral_drivers\inc/sl_si91x_gpio_common.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\wiseconnect3_sdk_3.5.2\components\device\silabs\si91x\mcu\core\chip\inc/si91x_device.h:
 D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\config/sl_gpio_board.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_applications\inc/uink_led.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_drivers\inc/uink_pwr.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_drivers\inc/uink_ssd2683.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_drivers\inc/uink_ssd.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_peripherals\inc/uink_spi.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_peripherals\inc/uink_gpio.h:
-../uink_thread.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_applications\inc/uink_eink.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_applications\inc/uink_button.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_drivers\inc/uink_gd25wq64e.h:
-D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\z_temp/rle.h:
+D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\peripherals\inc/uink_gpio.h:
+D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\peripherals\inc/uink_i2c.h:
+D:\SiliconLabs\SimplicityStudio\v5_workspace\si91x_hello_world\peripherals\inc/uink_spi.h:
+d:\siliconlabs\simplicitystudio\v5_workspace\si91x_hello_world\peripherals\inc\uink_gpio.h:
